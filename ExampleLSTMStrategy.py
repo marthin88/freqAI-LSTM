@@ -6,7 +6,7 @@ import pandas as pd
 import talib.abstract as ta
 from pandas import DataFrame
 from technical import qtpylib
-
+from typing import Dict, List
 from freqtrade.exchange.exchange_utils import *
 from freqtrade.strategy import IStrategy, RealParameter
 
